@@ -1,8 +1,8 @@
-import javascript from "./configs/javascript";
-import typescript from "./configs/typescript";
-import vitest from "./configs/vitest";
+const javascript = require("./configs/javascript");
+const typescript = require("./configs/typescript");
+const vitest = require("./configs/vitest");
 
-module.exportypescript = {
+module.exports = {
   /** {@see https://eslint.org/docs/latest/extend/plugins#configs-in-plugins} */
   configs: {
     javascript,
