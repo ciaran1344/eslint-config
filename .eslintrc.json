@@ -1,8 +1,0 @@
-{
-  "$schema": "http://json.schemastore.org/eslintrc",
-  "root": true,
-  "extends": ["./src/configs/javascript"],
-  "env": {
-    "node": true
-  }
-}

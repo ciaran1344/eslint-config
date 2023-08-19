@@ -2,7 +2,8 @@
 module.exports = {
   plugins: ["@typescript-eslint", "import"],
   extends: [
-    "./base",
+    // Relative to plugin
+    "./configs/base",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:import/typescript",
   ],
